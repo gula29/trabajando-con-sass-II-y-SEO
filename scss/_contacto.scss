@@ -1,0 +1,86 @@
+/* estilos del html contacto */
+.img-contacto {
+    width: 320px;
+
+    margin: auto;
+    border-radius: 25%;
+
+    display: block;
+
+    animation-name: primerimagender;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+.titulo-contacto {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgb(46, 21, 21);
+
+    margin: auto;
+
+}
+
+.grid-contacto {
+    display: grid;
+    grid-template-areas:
+        "waths"
+        "email"
+        "form ";
+
+}
+
+.waths {
+    grid-area: waths;
+
+    text-align: center;
+
+    &:hover {
+        transform: scale(.8);
+    }
+}
+
+.email {
+    grid-area: email;
+
+    text-align: center;
+
+    &:hover {
+        transform: scale(.8);
+    }
+}
+
+
+.seccion3-contacto {
+    grid-area: form;
+    background-color: lightgray;
+
+
+    h3 {
+        font-size: 1.25em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-decoration: underline;
+        margin-left: 25px;
+
+    }
+
+    h4 {
+        font-size: 0.9em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        margin-left: 30px;
+
+    }
+}
+
+.formulario-contacto {
+    margin-left: 50px;
+    width: 60%;
+}
+
+.input-enviar {
+    margin-bottom: 2px;
+}

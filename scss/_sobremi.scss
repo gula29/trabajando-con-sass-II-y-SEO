@@ -1,0 +1,98 @@
+/*estilo del html sobremi */
+.titulo-sobremi {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: $color-text-secondary;
+
+    margin: auto;
+
+    width: 320px;
+    height: 200px;
+
+    background-image: url(../public/16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    animation-name: primerimagen;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+
+}
+
+@keyframes primerimagen {
+    0% {
+        transform: translateX(-305px);
+        opacity: 0;
+    }
+
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+
+.seccion1-sobremi {
+    background-color: $background-primary;
+
+    display: grid;
+    grid-template-areas:
+        "img textoh2 "
+        "textoh3 textoh3 ";
+    grid-template-columns: 40% 60%;
+
+}
+
+.img-sobremi {
+
+    grid-area: img;
+
+
+    border-radius: 10px;
+    box-shadow: $sombra-chica;
+
+    margin: auto;
+    height: 100px;
+
+}
+
+.h2-sobremi {
+    grid-area: textoh2;
+
+    font-size: 1em;
+
+    margin: 15px 7px;
+}
+
+.h3-sobremi {
+    grid-area: textoh3;
+    font-size: .9em;
+
+    margin: 0 10px;
+
+}
+
+.enlace-contacto-sobremi {
+
+    text-align: center;
+
+    a {
+        font-size: 1.5em;
+        color: $color-text-primary;
+    }
+
+
+    &:hover {
+
+        background: #ccc;
+        background: linear-gradient(black, rgb(136, 63, 63), rgb(108, 7, 241));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+    }
+}

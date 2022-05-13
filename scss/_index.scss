@@ -1,0 +1,364 @@
+/* estilo h1 index */
+.h1Home {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: rgba(119, 118, 119, 0.795);
+    margin: auto;
+
+}
+
+/* estilos del navegador */
+
+.nav-link {
+
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 35px;
+
+}
+
+
+.navbar-nav {
+
+    a {
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: black;
+            transform-origin: bottom right;
+            transition: transform 0.6s ease-out;
+        }
+
+        &:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+    }
+}
+
+header h2 {
+
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $color-text-primary;
+    padding: 0 15px;
+}
+
+
+/* estilo del main-index */
+
+
+/* primer seccion */
+
+.section1-index {
+    background-color: $background-secundary;
+
+    display: grid;
+    grid-template-areas:
+        "img1"
+        "titulo1"
+        "img2"
+        "titulo2";
+
+}
+
+.img1 {
+    grid-area: img1;
+
+    margin: 5px 35px;
+    border-radius: 5px;
+    box-shadow: $sombra-chica;
+
+    width: 75%;
+
+    opacity: 1;
+    animation-name: img-sec1;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+
+.img2 {
+    grid-area: img2;
+
+
+    margin: 5px 35px;
+    border-radius: 5px;
+    box-shadow:$sombra-chica;
+
+    width: 75%;
+
+    opacity: 1;
+    animation-name: img-sec1;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+@keyframes img-sec1 {
+    0% {
+        transform: translateY(-35px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+.h3-capac {
+    grid-area: titulo1;
+
+    margin: 0%;
+
+    transform: translate(0, -50px);
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.h3-sesio {
+    grid-area: titulo2;
+
+    margin: 0%;
+
+    transform: translate(0, -50px);
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* segunda Seccion */
+.section2-index {
+
+    background-color:$background-primary;
+
+}
+
+.texto-section2-index {
+    h2 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1em;
+        text-decoration: underline;
+
+        margin: 0px 25px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 0.77em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        margin: 0 25px
+    }
+}
+
+.enlace-sobremi {
+
+    text-decoration: none;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    &:hover {
+        text-decoration: underline;
+
+        animation-name: sobremi;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+
+    @keyframes sobremi {
+        0% {
+            color: rgb(219, 166, 177);
+        }
+
+        50% {
+            color: rgb(138, 81, 98);
+        }
+
+        100% {
+            color: rgb(255, 0, 51);
+
+
+        }
+    }
+}
+
+.imgSect2 {
+    margin: 0 10px;
+    border-radius: 7px;
+
+    width: 90%;
+}
+
+/* tercer seccion */
+
+.tercer-seccion-index {
+    h2 {
+        text-align: center;
+        color: $color-text-primary;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+    }
+}
+
+.enlaces-seccion3-index {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    font-size: .8em;
+
+
+    div:hover {
+        transform: scale(1.2);
+        text-decoration: underline;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: grey;
+        margin: 0 15px;
+
+    }
+}
+
+.tercer-seccion-index img {
+    display: block;
+    margin: 0 15px;
+    width: 90%;
+
+}
+
+.contacto-seccion3-index {
+    text-align: center;
+    font-size: 0.7em;
+
+
+
+    a {
+        text-decoration: none;
+        color: $color-text-primary;
+    }
+}
+
+/* cuarta seccion */
+.cuarta-seccion-index {
+    background-color: $background-primary;
+
+    h2 {
+        text-align: center;
+        color:$color-text-primary;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+    }
+
+    img {
+        display: block;
+        margin: 0 15px;
+        width: 90%;
+    }
+}
+
+.enlaces-seccion4-index {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 0.8em;
+
+
+    div:hover {
+        transform: scale(1.2);
+        text-decoration: underline;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-text-secondary;
+        margin: 0 15px;
+    }
+}
+
+
+.contacto-seccion4-index {
+    text-align: center;
+    font-size: 0.7em;
+
+    a {
+        text-decoration: none;
+        color:$color-text-primary;
+    }
+}
+
+/* estilos del footer */
+.footer-copy {
+    background-color: rgb(233, 216, 216);
+}
+
+.icono-back_to_top {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+    border: solid 1px $color-text-primary;
+    width: 32px;
+    height: 32px;
+
+}
+
+#back_to_top {
+
+    text-decoration: none;
+    text-align: center;
+
+    color: $color-text-primary;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.copyright {
+    font-size: 6px;
+    text-align: center;
+    color: $color-text-primary;
+}
+
+.footer-social {
+    text-decoration: none;
+    text-align: center;
+
+
+    a {
+        color: $color-text-primary;
+        ;
+    }
+}

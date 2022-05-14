@@ -4,7 +4,9 @@
     .h1Home {
         font-size: 3em;
     }
-
+    .nav-link{
+        font-family: 'Open Sans', sans-serif;
+    }
     header h2 {
         font-size: 1.5em;
     }
@@ -260,12 +262,6 @@
         display: none;
     }
 
-    .navbar {
-        background-color: $background-secundary;
-
-    }
-
-
     header h2 {
         font-size: 2.5em;
         margin: 1em 3em;
@@ -395,6 +391,7 @@
             "copy social buttom";
         grid-template-columns: 3fr .5fr .5fr;
 
+        height: 50px;
     }
 
     .icono-back_to_top {
@@ -402,6 +399,8 @@
         margin: 0;
         margin-left: 12px;
         font-size: 12px;
+        margin-top: 10px;
+        
     }
 
 
@@ -409,14 +408,14 @@
         grid-area: copy;
 
         font-size: 12px;
-
+        margin-top: 10px;
     }
 
     .footer-social {
         grid-area: social;
 
         text-align: right;
-
+        margin-top: 10px;
         a {
 
             font-size: 15px;

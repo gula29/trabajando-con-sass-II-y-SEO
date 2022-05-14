@@ -1,3 +1,253 @@
+/* formato tablet 768px */
+/* tablet index */
+@media screen and (min-width: 768px) {
+    .h1Home {
+        font-size: 3em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    .img1 {
+        margin: 5px 70px;
+
+    }
+
+    .img2 {
+
+        margin: 5px 70px;
+
+    }
+
+    .h3-capac {
+        font-size: 40px;
+        transform: translate(0, -100px);
+    }
+
+    .h3-sesio {
+        font-size: 40px;
+        transform: translate(0, -100px);
+
+    }
+
+    .texto-section2-index {
+        h2 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+    }
+
+    .index-seccion-3 {
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    .enlaces-seccion3-index {
+        font-size: 1.5em;
+    }
+
+    .contacto-seccion3-index {
+        font-size: 1.5em;
+
+    }
+
+    .index-seccion-4{
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    .enlaces-seccion4-index {
+        font-size: 1.5em;
+    }
+
+    .contacto-seccion4-index {
+        font-size: 1.5em;
+
+    }
+
+    .copyright {
+        font-size: 11px;
+
+    }
+
+
+    /* tablet sobremi */
+    .titulo-sobremi {
+        font-size: 3em;
+
+        width: 768px;
+        height: 440px;
+    }
+
+    .img-sobremi {
+
+        height: max-content;
+
+    }
+
+    .h2-sobremi {
+        font-size: 2em;
+    }
+
+    .h3-sobremi {
+        font-size: 1.3em;
+
+    }
+
+    .enlace-contacto-sobremi {
+        a {
+            font-size: 2em;
+        }
+    }
+
+    /* tablet portfolio */
+    .titulo-portfolio {
+        font-size: 3em;
+
+        width: 768px;
+        height: 440px;
+
+    }
+
+    .seccion1-portfolio {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 1em;
+        }
+    }
+
+    .seccion2-portfolio {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 1em;
+        }
+    }
+
+    .seccion3-portfolio {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 1em;
+        }
+    }
+
+    .enlace-contacto-portfolio {
+        a {
+            font-size: 2em;
+
+        }
+    }
+
+
+    /* tablet capacitaciones */
+
+    .titulo-capacitaciones {
+        font-size: 3em;
+
+        width: 768px;
+        height: 440px;
+
+    }
+
+    .seccion1-capacitaciones {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+
+    .seccion2-capacitaciones {
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+
+    .seccion3-capacitaciones {
+        h2 {
+            font-size: 2em;
+        }
+
+        table {
+            font-size: 1.5em;
+
+            margin-left: 100px;
+        }
+    }
+
+    .enlace-contacto-capacitaciones {
+        a {
+            font-size: 2em;
+        }
+    }
+
+    /* tablet contacto */
+    .img-contacto {
+        width: 768px;
+
+        margin: auto;
+        border-radius: 25%;
+
+        display: block
+    }
+
+    .titulo-contacto {
+        font-size: 3em;
+    }
+
+    .grid-contacto {
+        display: grid;
+        grid-template-areas:
+            "waths email"
+            "form form";
+
+    }
+
+    .seccion3-contacto {
+        h3 {
+            font-size: 1.6em;
+        }
+
+        h4 {
+            font-size: 1.3em;
+        }
+    }
+}
+
+// formato ordenador 1024px
+
 @media screen and (min-width: 1024px) {
     /* estilo del index */
 
@@ -22,8 +272,7 @@
 
     }
 
-    .section1-index {
-        background-color: #f3e1ea;
+    .index-seccion-1{
 
         display: grid;
         grid-template-areas:
@@ -55,7 +304,7 @@
         transform: translate(0, -75px);
     }
 
-    .section2-index {
+    .index-seccion-2 {
         display: grid;
         grid-template-areas:
             "texto img"
@@ -86,7 +335,7 @@
         margin-top: 40px;
     }
 
-    .tercer-seccion-index {
+    .index-seccion-3 {
         h2 {
             font-size: 2em;
         }
@@ -113,7 +362,7 @@
 
     }
 
-    .cuarta-seccion-index {
+    .index-seccion-4 {
         h2 {
             font-size: 2em;
         }
@@ -465,3 +714,4 @@
     }
 
 }
+

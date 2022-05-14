@@ -58,12 +58,22 @@ header h2 {
 
 
 /* estilo del main-index */
+$background-seccion-index :(seccion-1: $background-primary,
+    seccion-2: $background-secundary,
+    seccion-3: #fceee700,
+    seccion-4: $background-primary, );
 
+@each $seccion,
+$background in $background-seccion-index {
+    .index-#{$seccion} {
+        background: $background;
+
+    }
+}
 
 /* primer seccion */
 
-.section1-index {
-    background-color: $background-secundary;
+.index-seccion-1 {
 
     display: grid;
     grid-template-areas:
@@ -97,7 +107,7 @@ header h2 {
 
     margin: 5px 35px;
     border-radius: 5px;
-    box-shadow:$sombra-chica;
+    box-shadow: $sombra-chica;
 
     width: 75%;
 
@@ -153,11 +163,6 @@ header h2 {
 }
 
 /* segunda Seccion */
-.section2-index {
-
-    background-color:$background-primary;
-
-}
 
 .texto-section2-index {
     h2 {
@@ -220,13 +225,22 @@ header h2 {
 
 /* tercer seccion */
 
-.tercer-seccion-index {
+.index-seccion-3 {
     h2 {
         text-align: center;
         color: $color-text-primary;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1em;
     }
+
+    img {
+        display: block;
+        margin: 0 15px;
+        width: 90%;
+
+    }
+
+
 }
 
 .enlaces-seccion3-index {
@@ -251,13 +265,6 @@ header h2 {
     }
 }
 
-.tercer-seccion-index img {
-    display: block;
-    margin: 0 15px;
-    width: 90%;
-
-}
-
 .contacto-seccion3-index {
     text-align: center;
     font-size: 0.7em;
@@ -271,12 +278,11 @@ header h2 {
 }
 
 /* cuarta seccion */
-.cuarta-seccion-index {
-    background-color: $background-primary;
+.index-seccion-4 {
 
     h2 {
         text-align: center;
-        color:$color-text-primary;
+        color: $color-text-primary;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1em;
     }
@@ -316,7 +322,7 @@ header h2 {
 
     a {
         text-decoration: none;
-        color:$color-text-primary;
+        color: $color-text-primary;
     }
 }
 

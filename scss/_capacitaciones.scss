@@ -1,23 +1,9 @@
 /* estilo del html capacitaciones */
 .titulo-capacitaciones {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: white;
-
-    margin: auto;
-
-    width: 320px;
-    height: 200px;
-
+    @include titulo;
     background-image: url(../public/capaci3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    color: white;
     animation-name: primerimagen;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
 
 }
 
@@ -79,7 +65,7 @@
 /* seccion 3 capacitaciones */
 
 .seccion3-capacitaciones {
-    background-color:$background-primary;
+    background-color: $background-primary;
     margin-top: 5px;
 
     h2 {

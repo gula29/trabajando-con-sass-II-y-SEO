@@ -1,26 +1,11 @@
 /*estilo del html sobremi */
 .titulo-sobremi {
-
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: $color-text-secondary;
-
-    margin: auto;
-
-    width: 320px;
-    height: 200px;
+    @include titulo;
 
     background-image: url(../public/16.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    color: darkgrey;
 
     animation-name: primerimagen;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-
 }
 
 @keyframes primerimagen {

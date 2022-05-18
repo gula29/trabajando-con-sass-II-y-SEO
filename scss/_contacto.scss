@@ -16,7 +16,7 @@
 .titulo-contacto {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: $subtitulo-base;
     color: rgb(46, 21, 21);
 
     margin: auto;
@@ -59,7 +59,7 @@
 
 
     h3 {
-        font-size: 1.25em;
+        font-size: $subtitulo-base - .25em;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-style: oblique;
         text-decoration: underline;
@@ -68,7 +68,7 @@
     }
 
     h4 {
-        font-size: 0.9em;
+        font-size: $parrafo-inferior - 0.1 em;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
         margin-left: 30px;

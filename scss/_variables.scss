@@ -15,15 +15,24 @@ $sombra-amplia: 5px 5px 20px gray;
 
 // size de fuentes
 $subtitulo-base: 1.5em;
-$parrafo-inferior: 1em; 
+$parrafo-inferior: 1em;
+// MIXIN
 
+// Borde enlace-inferior
+@mixin border-inferior {
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+
+// ESTILO H2
 @mixin h2-index {
     text-align: center;
     color: $color-text-primary;
     font-size: $subtitulo-base;
 
 }
-
+// ESTILO TITULO HTML-SECUNDARIOS
 @mixin titulo {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -39,7 +48,3 @@ $parrafo-inferior: 1em;
     animation-iteration-count: 1;
     animation-duration: 1s;
 }
-
-
-
-

@@ -1,7 +1,7 @@
 /* estilo h1 index */
 .h1Home {
     font-family: 'Dancing Script', cursive;
-    font-size: 2em;
+    font-size: $parrafo-inferior*2;
     text-align: center;
     color: rgba(119, 118, 119, 0.795);
     margin: auto;
@@ -13,7 +13,7 @@
 .nav-link {
 
     font-weight: bold;
-    font-size: 1em;
+    font-size: $parrafo-inferior;
     text-align: center;
 
     font-family: 'Open Sans', sans-serif;
@@ -139,7 +139,7 @@ $background in $background-seccion-index {
 
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: $parrafo-inferior;
     color: white;
     font-weight: bold;
 
@@ -165,7 +165,7 @@ $background in $background-seccion-index {
 
 .texto-section2-index {
     h2 {
-        @include h2-index ;
+        @include h2-index;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-decoration: underline;
         margin: 0px 25px;
@@ -173,7 +173,7 @@ $background in $background-seccion-index {
 
     p {
         text-align: center;
-        font-size: 0.77em;
+        font-size: $parrafo-inferior - .2em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
         margin: 0 25px
@@ -241,7 +241,7 @@ $background in $background-seccion-index {
     justify-content: center;
 
     text-align: center;
-    font-size: .8em;
+    font-size: $parrafo-inferior;
 
 
     div:hover {
@@ -260,13 +260,13 @@ $background in $background-seccion-index {
 
 .contacto-seccion3-index {
     text-align: center;
-    font-size: 0.7em;
-
-
+    font-size: $parrafo-inferior - .3em;
 
     a {
         text-decoration: none;
         color: $color-text-primary;
+        @include border-inferior;
+
     }
 }
 
@@ -274,9 +274,9 @@ $background in $background-seccion-index {
 .index-seccion-4 {
 
     h2 {
-        @include h2-index; 
+        @include h2-index;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        
+
     }
 
     img {
@@ -291,7 +291,7 @@ $background in $background-seccion-index {
     justify-content: center;
 
     text-align: center;
-    font-size: 0.8em;
+    font-size: $parrafo-inferior;
 
 
     div:hover {
@@ -310,11 +310,12 @@ $background in $background-seccion-index {
 
 .contacto-seccion4-index {
     text-align: center;
-    font-size: 0.7em;
+    font-size: $parrafo-inferior - .3em;
 
     a {
         text-decoration: none;
         color: $color-text-primary;
+        @include border-inferior;
     }
 }
 
@@ -340,12 +341,12 @@ $background in $background-seccion-index {
     text-align: center;
 
     color: $color-text-primary;
-    font-size: 20px;
+    font-size: $subtitulo-base;
     margin: 5px;
 }
 
 .copyright {
-    font-size: 6px;
+    font-size: $parrafo-inferior/2;
     text-align: center;
     color: $color-text-primary;
 }

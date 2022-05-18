@@ -13,7 +13,7 @@
 
     h2 {
         font-family: 'Merienda', cursive;
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
         text-decoration: underline;
         text-align: center;
         font-style: oblique;
@@ -21,7 +21,7 @@
 
     h3 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: .9em;
+        font-size: $parrafo-inferior;
         margin: 10px 25px;
     }
 
@@ -40,7 +40,7 @@
 
     h2 {
         font-family: 'Merienda', cursive;
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
         text-decoration: underline;
         text-align: center;
         font-style: oblique;
@@ -48,7 +48,7 @@
 
     h3 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: .9em;
+        font-size: $parrafo-inferior;
 
         margin: 10px 25px;
     }
@@ -71,7 +71,7 @@
     h2 {
         margin-left: 125px;
 
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
         text-decoration: underline;
         font-style: oblique;
         font-family: 'Abril Fatface', cursive;
@@ -81,7 +81,7 @@
         margin-left: 10px;
         margin-right: 5PX;
 
-        font-size: 1em;
+        font-size: $parrafo-inferior;
 
         width: max-content;
 
@@ -108,7 +108,7 @@
     text-align: center;
 
     a {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
         color: $color-text-secondary;
     }
 

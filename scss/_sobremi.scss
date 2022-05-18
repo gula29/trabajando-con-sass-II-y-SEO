@@ -49,14 +49,14 @@
 .h2-sobremi {
     grid-area: textoh2;
 
-    font-size: 1em;
+    font-size: $subtitulo-base;
 
     margin: 15px 7px;
 }
 
 .h3-sobremi {
     grid-area: textoh3;
-    font-size: .9em;
+    font-size: $parrafo-inferior;
 
     margin: 0 10px;
 
@@ -67,7 +67,7 @@
     text-align: center;
 
     a {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
         color: $color-text-primary;
     }
 

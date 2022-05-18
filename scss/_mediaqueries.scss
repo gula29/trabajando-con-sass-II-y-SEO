@@ -2,13 +2,13 @@
 /* tablet index */
 @media screen and (min-width: 768px) {
     .h1Home {
-        font-size: 3em;
+        font-size: $subtitulo-base*2;
     }
     .nav-link{
         font-family: 'Open Sans', sans-serif;
     }
     header h2 {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
     }
 
     .img1 {
@@ -23,65 +23,65 @@
     }
 
     .h3-capac {
-        font-size: 40px;
+        font-size: $parrafo-inferior*2.5;
         transform: translate(0, -100px);
     }
 
     .h3-sesio {
-        font-size: 40px;
+        font-size: $parrafo-inferior*2.5;
         transform: translate(0, -100px);
 
     }
 
     .texto-section2-index {
         h2 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
 
         p {
-            font-size: 1.3em;
+            font-size: $subtitulo-base - .20em;
         }
     }
 
     .index-seccion-3 {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
     }
 
     .enlaces-seccion3-index {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
     }
 
     .contacto-seccion3-index {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
 
     }
 
     .index-seccion-4{
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
     }
 
     .enlaces-seccion4-index {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
     }
 
     .contacto-seccion4-index {
-        font-size: 1.5em;
+        font-size: $subtitulo-base;
 
     }
 
     .copyright {
-        font-size: 11px;
+        font-size: $parrafo-inferior - 0.3em;
 
     }
 
 
     /* tablet sobremi */
     .titulo-sobremi {
-        font-size: 3em;
+        font-size: $subtitulo-base*2;
 
         width: 768px;
         height: 440px;
@@ -94,23 +94,22 @@
     }
 
     .h2-sobremi {
-        font-size: 2em;
+        font-size: $parrafo-inferior*2;
     }
 
     .h3-sobremi {
-        font-size: 1.3em;
-
+        font-size: $subtitulo-base - .20em;
     }
 
     .enlace-contacto-sobremi {
         a {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
     }
 
     /* tablet portfolio */
     .titulo-portfolio {
-        font-size: 3em;
+        font-size: $subtitulo-base*2;
 
         width: 768px;
         height: 440px;
@@ -119,49 +118,49 @@
 
     .seccion1-portfolio {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         h3 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
 
         h4 {
-            font-size: 1em;
+            font-size: $parrafo-inferior;
         }
     }
 
     .seccion2-portfolio {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         h3 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
 
         h4 {
-            font-size: 1em;
+            font-size: $parrafo-inferior;
         }
     }
 
     .seccion3-portfolio {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         h3 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
 
         h4 {
-            font-size: 1em;
+            font-size: $parrafo-inferior;
         }
     }
 
     .enlace-contacto-portfolio {
         a {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
 
         }
     }
@@ -170,7 +169,7 @@
     /* tablet capacitaciones */
 
     .titulo-capacitaciones {
-        font-size: 3em;
+        font-size: $subtitulo-base*2;
 
         width: 768px;
         height: 440px;
@@ -179,31 +178,31 @@
 
     .seccion1-capacitaciones {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         h3 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
     }
 
     .seccion2-capacitaciones {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         h3 {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
         }
     }
 
     .seccion3-capacitaciones {
         h2 {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
 
         table {
-            font-size: 1.5em;
+            font-size: $subtitulo-base;
 
             margin-left: 100px;
         }
@@ -211,7 +210,7 @@
 
     .enlace-contacto-capacitaciones {
         a {
-            font-size: 2em;
+            font-size: $parrafo-inferior*2;
         }
     }
 
@@ -226,7 +225,7 @@
     }
 
     .titulo-contacto {
-        font-size: 3em;
+        font-size: $subtitulo-base*2;
     }
 
     .grid-contacto {
@@ -239,11 +238,11 @@
 
     .seccion3-contacto {
         h3 {
-            font-size: 1.6em;
+            font-size: $subtitulo-base;
         }
 
         h4 {
-            font-size: 1.3em;
+            font-size: $subtitulo-base - .20em;
         }
     }
 }

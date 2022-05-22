@@ -4,10 +4,12 @@
     .h1Home {
         font-size: $subtitulo-base*2;
     }
-    .nav-link{
+
+    .nav-link {
         font-family: 'Open Sans', sans-serif;
     }
-    header h2 {
+
+    .titulo-secundario {
         font-size: $subtitulo-base;
     }
 
@@ -58,7 +60,7 @@
 
     }
 
-    .index-seccion-4{
+    .index-seccion-4 {
         h2 {
             font-size: $parrafo-inferior*2;
         }
@@ -261,13 +263,13 @@
         display: none;
     }
 
-    header h2 {
+    .titulo-secundario {
         font-size: 2.5em;
         margin: 1em 3em;
 
     }
 
-    .index-seccion-1{
+    .index-seccion-1 {
 
         display: grid;
         grid-template-areas:
@@ -399,7 +401,7 @@
         margin-left: 12px;
         font-size: 12px;
         margin-top: 10px;
-        
+
     }
 
 
@@ -415,6 +417,7 @@
 
         text-align: right;
         margin-top: 10px;
+
         a {
 
             font-size: 15px;
@@ -712,4 +715,3 @@
     }
 
 }
-

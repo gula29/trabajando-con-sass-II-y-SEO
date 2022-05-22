@@ -32,7 +32,7 @@
   transform: scaleX(1);
   transform-origin: bottom left; }
 
-header h2 {
+.titulo-secundario {
   text-align: center;
   color: #6d6868;
   font-size: 1.5em;
@@ -533,7 +533,7 @@ header h2 {
     font-size: 3em; }
   .nav-link {
     font-family: 'Open Sans', sans-serif; }
-  header h2 {
+  .titulo-secundario {
     font-size: 1.5em; }
   .img1 {
     margin: 5px 70px; }
@@ -643,7 +643,7 @@ header h2 {
     font-size: 5em; }
   .navbar-brand {
     display: none; }
-  header h2 {
+  .titulo-secundario {
     font-size: 2.5em;
     margin: 1em 3em; }
   .index-seccion-1 {

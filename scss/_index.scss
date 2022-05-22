@@ -349,6 +349,9 @@ $background in $background-seccion-index {
     font-size: $parrafo-inferior/2;
     text-align: center;
     color: $color-text-primary;
+    i {
+        margin-right: 15px;
+    }
 }
 
 .footer-social {

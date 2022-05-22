@@ -57,86 +57,28 @@
 }
 
 .img1-port {
-
     border-radius: 15px;
-    box-shadow:$sombra-amplia;
+    box-shadow: $sombra-amplia;
 }
 
 /* seccion 2 portfolio */
 .seccion2-portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    div {
-        margin-left: 10px;
-        margin-right: 10px;
-
-    }
-
-    h2 {
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-weight: 200;
-        font-size: $subtitulo-base;
-        text-decoration: underline;
-    }
-
-    h3 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size:$parrafo-inferior;
-        color: $color-text-primary;
-    }
-
-    h4 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: $subtitulo-base/2;
-    }
+    @extend .seccion1-portfolio;
 }
 
 .img2-port {
-
-    border-radius: 15px;
-    box-shadow: $sombra-amplia;
+   @extend .img1-port;
 }
 
 /* seccion 3 portfolio */
 .seccion3-portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    @extend .seccion1-portfolio;
 
-    div {
-        margin-left: 10px;
-        margin-right: 10px;
-
-    }
-
-    h2 {
-        font-family: 'Oleo Script Swash Caps', cursive;
-        font-weight: 200;
-        font-size: $subtitulo-base;
-        text-decoration: underline;
-    }
-
-    h3 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: $parrafo-inferior;
-        color: $color-text-primary;
-    }
-
-    h4 {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size:$subtitulo-base/2;
-    }
 }
 
 .img3-port {
-
-    border-radius: 15px;
-    box-shadow: $sombra-amplia;
+   @extend .img1-port; 
 }
-
-
 
 .enlace-contacto-portfolio {
     text-align: center;
